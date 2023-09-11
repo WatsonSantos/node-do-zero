@@ -9,7 +9,7 @@ const server = fastify();
 const database = new DatabasePostegres();
 
 server.get("/", () => {
-  return "Hello world";
+  return "Hello world, here!";
 });
 
 server.post("/videos", async (request, reply) => {
