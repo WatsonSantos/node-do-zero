@@ -1,12 +1,3 @@
-/*import { createServer } from "node:http";
-
-const server = createServer((request, response) => {
-  response.write("Oi");
-  return response.end();
-});
-
-server.listen(8000);
- */
 
 import { fastify } from "fastify";
 import { DatabasePostegres } from "./database-postegres.js";
